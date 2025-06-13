@@ -19,6 +19,7 @@ public class Demo {
 //        int count = st.executeUpdate("insert into Employee_Address values('7', 'Sarveshji', 'Chandni Chowk')");
             int count = st.executeUpdate(insertQuery);
             System.out.println("Number of rows affected " + count);
+            System.out.println("This is a feature branch, commiting changes to the GIT HUB");
         }
         finally {
             if (resultSet != null)
